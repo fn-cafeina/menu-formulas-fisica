@@ -270,7 +270,7 @@ int main()
             return 0;
         default:
             attron(COLOR_PAIR(3));
-            printw("Opción no válida. Intenta de nuevo.\n");
+            printw("Opción no válida, Intenta de nuevo.\n");
             attroff(COLOR_PAIR(3));
             break;
         }
